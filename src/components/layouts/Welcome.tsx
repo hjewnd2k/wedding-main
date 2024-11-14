@@ -1,5 +1,4 @@
-import '@lottiefiles/lottie-player';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { cn } from '@/lib/utils';
 
@@ -8,6 +7,12 @@ type Props = {
   className: string;
 };
 const Welcome: React.FC<Props> = ({ onClick, className }) => {
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('@lottiefiles/lottie-player');
+    }
+  }, []);
+
   return (
     <header id="header" className={cn('animated', className)}>
       <section className="header">
