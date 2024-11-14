@@ -32,7 +32,7 @@ const data = [
   },
   {
     image: Event2,
-    title: 'Tiệc Cưới Nhà Gái',
+    title: 'Lễ Vu Quy',
     time: '16:30 AM - Thứ 7, 21/12/2024',
     address:
       'Nhà Số 10, Ngõ 82, Đường YNa, Phường Kinh Bắc, Thành Phố Bắc Ninh, Tỉnh Bắc Ninh',
