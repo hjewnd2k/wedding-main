@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: `https://dien-anh-wedding.vercel.app/sitemap.xml`,
+    sitemap: `https://huyen-hieu-wedding.vercel.app/sitemap.xml`,
   };
 }
