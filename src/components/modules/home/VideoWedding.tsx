@@ -39,7 +39,16 @@ export const VideoWedding = () => {
         <button
           name="preview-video"
           className="absolute left-1/2 top-1/2 flex size-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border bg-white/20 sm:size-16 xl:size-24"
-          onClick={() => setOpen(1)}
+          onClick={() => {
+            setOpen(1);
+            document.dispatchEvent(
+              new CustomEvent('AUDIO_PLAY', {
+                detail: {
+                  isPlay: false,
+                },
+              }),
+            );
+          }}
         >
           <PlayIcon className="size-6 stroke-[1.5] text-white sm:size-8 xl:size-12" />
         </button>
@@ -48,7 +57,7 @@ export const VideoWedding = () => {
         open={open}
         setOpen={setOpen}
         data={[
-          <video key={'video'} width={450} controls>
+          <video key={'video'} width={450} autoPlay controls>
             <source src="/video/wedding.mp4" type="video/mp4" />
           </video>,
         ]}

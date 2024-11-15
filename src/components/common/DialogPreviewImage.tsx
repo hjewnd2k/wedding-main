@@ -43,6 +43,13 @@ export const DialogPreviewImage = ({
 
   const handleClose = () => {
     setOpen(0);
+    document.dispatchEvent(
+      new CustomEvent('AUDIO_PLAY', {
+        detail: {
+          isPlay: true,
+        },
+      }),
+    );
   };
 
   return (

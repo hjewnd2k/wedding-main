@@ -20,10 +20,16 @@ export const AudioPlayer = () => {
   };
 
   useEffect(() => {
-    const handlePlayAudio = () => {
-      if (audioRef.current) {
+    const handlePlayAudio = (e: any) => {
+      if (!audioRef.current) {
+        return;
+      }
+      if (e.detail.isPlay) {
         audioRef.current.play();
         setIsPlaying(true);
+      } else {
+        audioRef.current.pause();
+        setIsPlaying(false);
       }
     };
     document.addEventListener('AUDIO_PLAY', handlePlayAudio);
