@@ -6,6 +6,7 @@ import ImgsViewer from 'react-images-viewer';
 import Gallery from 'react-photo-gallery';
 
 import { Button } from '@/components/ui';
+import { useDevices } from '@/hooks';
 
 import Image1 from '/public/images/home/album/1.jpg';
 import Image2 from '/public/images/home/album/2.jpg';
@@ -28,6 +29,7 @@ import Image18 from '/public/images/home/album/18.jpg';
 import Image19 from '/public/images/home/album/19.jpg';
 
 export const Album = () => {
+  const { isSmall } = useDevices();
   const [isOpen, setIsOpen] = useState(false);
   const [currImg, setCurrImg] = useState(0);
 
@@ -95,6 +97,7 @@ export const Album = () => {
         imgs={data}
         currImg={currImg}
         showThumbnails={false}
+        spinnerSize={isSmall ? 20 : 40}
         isOpen={isOpen}
         onClickPrev={() => setCurrImg(currImg - 1)}
         onClickNext={() => setCurrImg(currImg + 1)}
