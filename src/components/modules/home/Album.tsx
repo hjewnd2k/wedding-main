@@ -26,9 +26,6 @@ import Image16 from '/public/images/home/album/16.jpg';
 import Image17 from '/public/images/home/album/17.jpg';
 import Image18 from '/public/images/home/album/18.jpg';
 import Image19 from '/public/images/home/album/19.jpg';
-import Image20 from '/public/images/home/album/20.jpg';
-import Image21 from '/public/images/home/album/21.jpg';
-import Image22 from '/public/images/home/album/22.jpg';
 
 export const Album = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,9 +51,6 @@ export const Album = () => {
     Image17,
     Image18,
     Image19,
-    Image20,
-    Image21,
-    Image22,
   ];
 
   return (

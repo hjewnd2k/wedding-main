@@ -14,9 +14,9 @@ import ShapeRight from '/public/images/home/love-history/shape-right.png';
 
 const data = [
   {
-    title: 'How we meet',
+    title: 'Chúng tôi gặp nhau thế nào',
     description:
-      'Under the sparkling lights of the Christmas tree, we circled the streets hand in hand. The atmosphere of warmth and happiness spread in every moment, making our first Christmas outing together a romantic memory and memorable forever.',
+      'Từ những ngày đầu bước vào giảng đường đại học, chúng tôi gặp nhau tại khóa học quân sự của trường. Từ đó, chúng tôi đã đồng hành cùng nhau qua từng bước ngoặt của cuộc sống. Sáu năm trôi qua, tình yêu giữa chúng tôi không ngừng lớn dần, ngày càng nồng nàn và vững bền. Giờ đây, chúng tôi sẵn sàng cùng nhau bước tiếp trên hành trình hạnh phúc, tiến tới một tương lai đầy hy vọng và những ước mơ chung.',
     image: LoveHistory1,
     shade: (
       <div className="absolute -left-14 -top-14">
@@ -25,8 +25,8 @@ const data = [
     ),
   },
   {
-    title: 'I proposed, She said Yes',
-    description: 'It’s is secret.',
+    title: 'Tôi đã cầu hôn, Cô ấy đã đồng ý',
+    description: 'Đó là một buổi tối tuyệt vời vào ngày 28 tháng 9 năm 2024.',
     image: LoveHistory2,
     shade: (
       <div className="absolute -right-16 -top-16">
@@ -35,8 +35,9 @@ const data = [
     ),
   },
   {
-    title: 'Our Engagement Day',
-    description: 'To be released after the lovely wedding on 22 October, 2023.',
+    title: 'Ngày đính hôn của chúng tôi',
+    description:
+      'Sẽ được phát hành sau đám cưới tuyệt đẹp vào ngày 22 tháng 12 năm 2024.',
     image: LoveHistory3,
     shade: (
       <div className="absolute -left-24 -top-16">
