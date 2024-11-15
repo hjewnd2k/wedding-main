@@ -48,15 +48,9 @@ export const VideoWedding = () => {
         open={open}
         setOpen={setOpen}
         data={[
-          <iframe
-            key="video-wedding"
-            className="aspect-video w-full self-stretch sm:min-h-80 md:min-h-96"
-            src={`https://www.youtube.com/embed/XlDlHi4hj7A?autoplay=1`}
-            title="Video Wedding"
-            aria-hidden="true"
-            allowFullScreen
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          />,
+          <video key={'video'} width={450} controls>
+            <source src="/video/wedding.mp4" type="video/mp4" />
+          </video>,
         ]}
       />
     </section>
