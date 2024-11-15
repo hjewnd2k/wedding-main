@@ -37,7 +37,7 @@ const data = [
   {
     title: 'Ngày đính hôn của chúng tôi',
     description:
-      'Sẽ được phát hành trước đám cưới tuyệt đẹp vào ngày 21 tháng 12 năm 2024.',
+      'Ngày đính hôn của chúng tôi sẽ được tổ chức vào ngày 21 tháng 12 năm 2024. Khoảnh khắc ngọt ngào mở đầu cho hành trình yêu thương, trước khi chúng tôi cùng nhau bước vào lễ cưới tuyệt đẹp, đánh dấu một chương mới trong câu chuyện tình yêu trọn đời.',
     image: LoveHistory3,
     shade: (
       <div className="absolute -left-24 -top-16">
