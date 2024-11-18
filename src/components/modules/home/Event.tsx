@@ -33,7 +33,7 @@ const data = [
   {
     image: Event2,
     title: 'Lễ Vu Quy',
-    time: '16:00 Chiều - Thứ 7, 21/12/2024',
+    time: '16:30 Chiều - Thứ 7, 21/12/2024',
     address:
       'Nhà Số 10, Ngõ 82, Đường YNa, Phường Kinh Bắc, Thành Phố Bắc Ninh, Tỉnh Bắc Ninh',
     map: 'https://maps.app.goo.gl/s3ZfjYsxU31dPjdF6',
@@ -41,7 +41,7 @@ const data = [
   {
     image: Event3,
     title: 'Lễ Thành Hôn',
-    time: '11:00 Sáng - Chủ Nhật, 28/12/2024',
+    time: '11:30 Sáng - Chủ Nhật, 28/12/2024',
     address:
       'Nhà Số 2, Ngõ 1, Đường Chu Văn An, Khu Phố 3, Thị Trấn Liễu Đề, Huyện Nghĩa Hưng, Tỉnh Nam Định',
     map: 'https://maps.app.goo.gl/rKQt3iGhQuwWjFVP7?g_st=afm',
