@@ -25,7 +25,7 @@ const data = [
     ),
   },
   {
-    title: 'Tôi đã cầu hôn, Cô ấy đã đồng ý',
+    title: 'Tôi cầu hôn, Cô ấy đã đồng ý',
     description: 'Đó là một buổi tối tuyệt vời vào ngày 28 tháng 9 năm 2024.',
     image: LoveHistory2,
     shade: (
