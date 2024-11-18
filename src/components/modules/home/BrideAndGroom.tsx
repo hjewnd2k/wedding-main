@@ -16,7 +16,7 @@ export const BrideAndGroom = () => {
       name: 'Nguyễn Thị Thanh Huyền',
       label: 'Cô dâu',
       bank: {
-        accout: '19034571858013',
+        accout: '107869157444',
         qrCode: QRBride,
       },
     },
