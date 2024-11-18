@@ -90,7 +90,7 @@ export const SendWishes = () => {
       succes: true,
       title: 'Gửi lời chúc thành công!',
       description:
-        'Cảm ơn bạn đã gửi những lời chúc tốt đẹp đến với chúng tôi!\nChúc bạn có một ngày tràn đầy niềm vui và hạnh phúc?\n\n❤️❤️❤️',
+        'Cảm ơn bạn đã gửi những lời chúc tốt đẹp đến với chúng tôi!\nChúc bạn có một ngày tràn đầy niềm vui và hạnh phúc!\n\n❤️❤️❤️',
     });
 
     form.reset();
