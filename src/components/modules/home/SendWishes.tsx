@@ -39,7 +39,7 @@ const FormSchema = z.object({
   }),
   relation: z.string().min(1, {
     message:
-      'Hãy cho chúng tôi biết bạn là bạn của cô dâu hay chú rể được không?',
+      'Hãy cho chúng tôi biết bạn là bạn của cô dâu hay chú rể được không!',
   }),
   confirm: z.enum(['yes', 'no']).optional(),
   amount: z.string().optional(),
