@@ -41,7 +41,7 @@ const data = [
   {
     image: Event3,
     title: 'Lễ Thành Hôn',
-    time: '11:30 Sáng - Chủ Nhật, 28/12/2024',
+    time: '11:30 Sáng - Chủ Nhật, 22/12/2024',
     address:
       'Nhà Số 2, Ngõ 1, Đường Chu Văn An, Khu Phố 3, Thị Trấn Liễu Đề, Huyện Nghĩa Hưng, Tỉnh Nam Định',
     map: 'https://maps.app.goo.gl/rKQt3iGhQuwWjFVP7?g_st=afm',
